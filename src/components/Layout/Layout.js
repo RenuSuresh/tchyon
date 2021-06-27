@@ -3,12 +3,11 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
-
-import Sidebar from "../Sidebar/Sidebar";
-import AutoSearch from "../Search/AutoSearch";
 import "./Layout.css";
 import { useStyles } from "./layoutStyles";
 import Banner from "../Banner/Banner";
+import Searchbar from "../Searchbar/Searchbar";
+import MarketplaceContent from "../MarketplaceContent/MarketplaceContent";
 
 export default function Layout() {
   const classes = useStyles();
@@ -23,12 +22,16 @@ export default function Layout() {
           </Typography>
         </Toolbar>
       </AppBar>
-      <Sidebar />
+
       <main className={classes.content}>
         <div className={classes.toolbar} />
-
         <Banner />
-        <AutoSearch />
+        <div className="layout-outer">
+          <div className="layout-mainContent">
+            <Searchbar />
+            <MarketplaceContent />
+          </div>
+        </div>
       </main>
     </div>
   );

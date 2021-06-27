@@ -2,9 +2,13 @@ import DashboardIcon from "@material-ui/icons/Dashboard";
 import AccountBalanceIcon from "@material-ui/icons/AccountBalance";
 import PaymentIcon from "@material-ui/icons/Payment";
 import PublicIcon from "@material-ui/icons/Public";
-import ArrowForwardIosOutlinedIcon from "@material-ui/icons/ArrowForwardIosOutlined";
 import SelectAllOutlinedIcon from "@material-ui/icons/SelectAllOutlined";
 import FlashOnOutlinedIcon from "@material-ui/icons/FlashOnOutlined";
+import TrendingUpIcon from "@material-ui/icons/TrendingUp";
+import { Icon, InlineIcon } from "@iconify/react";
+import bitcoinIcon from "@iconify-icons/fa-brands/bitcoin";
+import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
+import MonetizationOnIcon from "@material-ui/icons/MonetizationOn";
 
 export const tooltipValue =
   "Onboard now start using any platform you like, instantly.";
@@ -21,6 +25,22 @@ export const sidebarMenu = [
   {
     value: "Cards",
     icons: <PaymentIcon />,
+  },
+  {
+    value: "Stocks",
+    icons: <TrendingUpIcon />,
+  },
+  {
+    value: "Cryptocurrency",
+    icons: <Icon icon={bitcoinIcon} />,
+  },
+  {
+    value: "Bonds",
+    icons: <ArrowUpwardIcon />,
+  },
+  {
+    value: "Alterante Investment",
+    icons: <MonetizationOnIcon />,
   },
 ];
 

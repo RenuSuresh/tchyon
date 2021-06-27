@@ -1,0 +1,49 @@
+{
+  "marketplace": [
+    {
+      "title": "Wint Wealth",
+      "logo": "https://miro.medium.com/max/786/1*OZBfcoQ2US6bU6A_I9Ze8g.png",
+      "star": 5,
+      "upvote": 2,
+      "companyInfo": [
+        {
+          "key": "established",
+          "value": 2020
+        },
+        { "key": "returns", "value": "9-11%" },
+        { "key": "minimum investment", "value": "₹10K" }
+      ],
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis error, corporis assumenda, possimus ab natus provident dignissimos doloribus ipsam aliquid sit, saepe perspiciatis culpa! Sunt alias in ab assumenda nam."
+    },
+    {
+      "title": "Wint Wealth",
+      "logo": "https://miro.medium.com/max/786/1*OZBfcoQ2US6bU6A_I9Ze8g.png",
+      "star": 5,
+      "upvote": 2,
+      "companyInfo": [
+        {
+          "key": "established",
+          "value": 2020
+        },
+        { "key": "returns", "value": "9-11%" },
+        { "key": "minimum investment", "value": "₹10K" }
+      ],
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis error, corporis assumenda, possimus ab natus provident dignissimos doloribus ipsam aliquid sit, saepe perspiciatis culpa! Sunt alias in ab assumenda nam."
+    },
+    {
+      "title": "Wint Wealth",
+      "logo": "https://miro.medium.com/max/786/1*OZBfcoQ2US6bU6A_I9Ze8g.png",
+      "star": 5,
+      "upvote": 2,
+      "companyInfo": [
+        {
+          "key": "established",
+          "value": 2020
+        },
+        { "key": "returns", "value": "9-11%" },
+        { "key": "minimum investment", "value": "₹10K" }
+      ],
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis error, corporis assumenda, possimus ab natus provident dignissimos doloribus ipsam aliquid sit, saepe perspiciatis culpa! Sunt alias in ab assumenda nam."
+    }
+  ]
+}
