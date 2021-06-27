@@ -3,3 +3,11 @@
   line-height: 1.5;
   width: 12em;
 }
+.layout-outer {
+  display: flex;
+  justify-content: center;
+}
+.layout-mainContent {
+  margin-top: 2em;
+  width: 80%;
+}
